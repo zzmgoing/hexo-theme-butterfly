@@ -13,7 +13,10 @@ script.
         serverURLs: '#{theme.valine.serverURLs}',
         emojiMaps: !{emojiMaps},
         path: window.location.pathname,
-        visitor: #{theme.valine.visitor}
+        visitor: #{theme.valine.visitor},
+        emojiCDN: '#{theme.valine.emojiCDN}',
+        lang: '#{theme.valine.lang}',
+        placeholder: '#{theme.valine.placeholder}',
       }, !{JSON.stringify(theme.valine.option)}))
     }
 
